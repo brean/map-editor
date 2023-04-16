@@ -1,0 +1,27 @@
+# nodejs / typescript / svelte
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+
+# testing
+/coverage
+
+# environment
+.env
+.env.*
+!.env.example
+
+# vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# production
+/build
+
+# build
+npm-debug.log*
+
+# smui (https://sveltematerialui.com/) generated files
+static/smui*.css
