@@ -3,8 +3,7 @@
   import { MOUSE, TOUCH } from 'three';
   import type { IMap } from '../model/IMap';
   import Wall from './Wall.svelte';
-
-  export let data: IMap;
+  import map from "../store/map"
 </script>
 
 
@@ -35,8 +34,8 @@
   intensity={0.5}
   castShadow
 />
-{#if data && data.walls}
-  {#each data.walls as wall}
+{#if $map && $map.walls}
+  {#each $map.walls as wall}
     <Wall wall={wall} />
   {/each}
 {/if}

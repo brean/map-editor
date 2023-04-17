@@ -1,7 +1,7 @@
-import type { IBox } from '../model/IBox';
-import type { IMap } from '../model/IMap'
-import type { IMarker } from '../model/IMarker';
-import type { IWall } from '../model/IWall';
+import type { IBox } from './model/IBox';
+import type { IMap } from './model/IMap'
+import type { IMarker } from './model/IMarker';
+import type { IWall } from './model/IWall';
 
 // Our goal is to create a map for robot simulations like gazebo, 
 // so a wall is rougly defined by SDF geometry
