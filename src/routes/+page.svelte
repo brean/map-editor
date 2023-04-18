@@ -6,8 +6,7 @@
 </script>
 <Canvas shadows size={{width: 640, height: 480}}>
   <T.AmbientLight />
-  <Map
-  />
+  <Map />
 </Canvas>
 <div class="toolbar">
 </div>

@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { T, OrbitControls } from '@threlte/core';
   import { MOUSE, TOUCH } from 'three';
-  import type { IMap } from '../model/IMap';
   import Wall from './Wall.svelte';
   import map from "../store/map"
 </script>
